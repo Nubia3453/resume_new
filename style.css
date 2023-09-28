@@ -1,0 +1,161 @@
+body {
+    background-color:azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: auto;
+    min-width: auto;
+    margin: auto;
+}
+
+
+
+header {
+    background-color: rgb(0, 187, 100);
+    color: azure;
+    size: 1rem;
+    text-align: center;
+    padding: 5px;
+    max-width: auto;
+    min-width: auto;
+    margin: auto;
+}
+
+
+.menubar {
+    background-color: #fff;
+    display:flex;
+    max-width: auto;
+    min-width: auto;
+    margin: auto;
+    padding: 10px;
+    column-gap: 7px;
+    justify-content: center;
+}
+
+.menu {
+    display:inline;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    max-width: auto;
+    min-width: auto;
+    margin: auto;
+}
+
+.menu1 {
+    display:inline;
+    background-color: rgb(0, 187, 100);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    max-width: auto;
+    min-width: auto;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.menu:hover {
+    background-color:  rgb(0, 187, 100);
+    color: azure;
+    text-decoration: underline;
+    border-radius: 4px;
+
+}
+
+.menu.active {
+    background-color:  rgb(0, 187, 100);
+    color: azure;
+    text-decoration: underline;
+    border-radius: 4px;
+}
+
+.content {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+
+}
+
+.intro {
+    border-radius: 5px;
+    color: rgb(0, 187, 100);
+    box-shadow: #b8b7b7;
+    background-color: aliceblue;
+    padding: 2px;
+    text-align: justify;
+}
+
+.exp {
+    color:#fff ;
+    background-color:rgb(0, 187, 100) ;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.exp2 {
+    color:rgb(0, 187, 100) ;;
+    background-color:none;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.exp4 {
+    background-color: #fff;
+    display:flex;
+    max-width: auto;
+    min-width: auto;
+    margin: auto;
+    padding: 10px;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.experince {
+    border-radius: 10px;
+    padding: 2px;
+    background-color: none;
+}
+
+
+.edu-desc {
+    display: flex;
+    margin-left: 0;
+}
+
+.highschool {
+    background-color: #fff;
+    display: flex;
+    padding: 2px;
+}
+
+
+
+
+.pvpit {
+    max-width: 30%;
+    border-radius: 10px; /* Make image corners round */
+    margin-left: 2%;
+}
+
+.test {
+    background-color:#fff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 2px;
+}
+
+.test01 {
+    background-color:#fff;
+    display: flex;
+    padding: 10px;
+    text-align: left;
+}
+
+.cont-list {
+    display: flex;
+    padding: 5px;
+    background-color:#fff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
